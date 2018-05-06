@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Site</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <header>
+                
+                <img src="images/logo.png" alt="Logo with my initials">
+                
+                <div class="info">
+                    <h1>Nouran Samy</h1>
+                    <h3>Front-End Developer</h3>
+                </div>
+
+            </header>
+
+            <hr>
+
+            <main>
+
+                <!-- Main Image after the Header with different resolutions for different devices -->
+                <picture>
+                    <source media="(max-width: 549px)" srcset="images/main-image-small.jpg">
+                    <source media="(max-width: 759px)" srcset="images/main-image-medium.jpg">
+                    <img src="images/main-image.jpg" alt="Front-End Track Essentials">
+                </picture>
+
+                <!-- Main Projects Section -->
+                <section class="featured-work">
+                    <h2>Featured Work</h2>
+
+                    <div class="work-container">
+
+                        <div class="project">
+                            <a href="https://github.com/udacity/Appify/">
+                                <img src="images/appify.jpg" alt="Appify App Image" width="300">
+                            </a>
+                            <h3><a href="https://github.com/udacity/Appify/">Appify</a></h3>
+                            <p><a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a></p>
+                        </div>
+
+                        <div class="project">
+                            <a href="https://github.com/udacity/Sunflower/">
+                                <img src="images/sunflower.jpg" alt="Sunflower App Image" width="300">
+                            </a>
+                            <h3><a href="https://github.com/udacity/Sunflower/">Sunflower</a></h3>
+                            <p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
+                        </div>
+
+                        <div class="project">
+                            <a href="https://github.com/udacity/Bokeh/">
+                                <img src="images/bokeh.jpg" alt="Bokeh App Image" width="300">
+                            </a>
+                            <h3><a href="https://github.com/udacity/Bokeh/">Bokeh</a></h3>
+                            <p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
+                        </div>
+                        
+                    </div>
+
+                </section>
+
+            </main>
+
+            <hr>
+
+            <footer>
+                <p><span>Design By:</span> Udacity</p>
+                <p><span>Coded By:</span> Nouran Samy</p>
+                <p><span>Copyrights &copy; 2018</span></p>
+            </footer>
+
+        </div>
+    </body>
+
+</html>
